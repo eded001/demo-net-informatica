@@ -1,0 +1,22 @@
+:root {
+    /* colors */
+    --color-01: #0F232B;
+    --color-02: #16333E;
+    --color-03: #1C4251;
+    --color-04: #225265;
+    --color-05: #296178;
+    --color-06: #2F718C;
+    --color-07: #34819F;
+    --color-08: #3A91B3;
+    --color-09: #449FC3;
+    --color-10: #56A9CA;
+
+    /* logo colors */
+    --color-logo-01: #D8D8D7;
+    --color-logo-02: #0144AA;
+    --color-logo-03: #5FC1C6;
+    --color-logo-04: #0048AC;
+    --color-logo-05: #296178;
+    --color-logo-06: #0790A0;
+    --color-logo-07: #04929F;
+}

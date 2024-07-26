@@ -11,7 +11,7 @@
     --color-09: #449FC3;
     --color-10: #56A9CA;
 
-    /* logo colors */
+    /* logos colors */
     --color-logo-01: #D8D8D7;
     --color-logo-02: #0144AA;
     --color-logo-03: #5FC1C6;
@@ -19,4 +19,16 @@
     --color-logo-05: #296178;
     --color-logo-06: #0790A0;
     --color-logo-07: #04929F;
+    --color-logo-face-01: #1977F3;
+    --color-logo-face-02: #FEFEFE;
+    --color-logo-insta-01: #ffdf9e;
+    --color-logo-insta-02: #ffc273;
+    --color-logo-insta-03: #e56969;
+    --color-logo-insta-04: #c1558b;
+    --color-logo-insta-05: #8a49a1;
+    --color-logo-zap-01: #075e54;
+    --color-logo-zap-02: #128c7e;
+    --color-logo-zap-03: #25d366;
+    --color-logo-zap-04: #dcf8c6;
+    --color-logo-zap-05: #ece5dd;
 }

@@ -7,18 +7,42 @@ header {
     height: 100dvh;
 
     display: flex;
+
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+
+    gap: 10px;
 
     background-color: var(--color-logo-01);
 }
 header img {
-    width: 30%;
+    width: 35%;
 }
 header h1 {
     color: var(--color-logo-02);
 }
 header p {
     color: var(--color-logo-05);
+}
+
+/* main > article */
+main article {
+    height: 100vh;
+
+    background-color: var(--color-11);
+}
+main article h1 {
+    text-align: center;
+}
+
+/* articles */
+article#localizacao {
+    background-color: var(--color-08);
+}
+article#localizacao section {
+    background-color: var(--color-10);
+
+    display: grid;
+    grid-gap: 15px;
 }

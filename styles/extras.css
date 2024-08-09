@@ -1,0 +1,25 @@
+img[src="imgs/whatsapp-logo.png"] {
+    background-color: var(--color-logo-whatsapp);
+}
+img[src="imgs/instagram-logo.png"] {
+    background-color: var(--color-logo-instagram);
+}
+img[src="imgs/facebook-logo.png"] {
+    background-color: var(--color-logo-facebook);
+}
+
+header h1, header p, main h1, aside .material-symbols-outlined {
+    user-select: none;
+}
+
+@keyframes up {
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes down {
+    to {
+        transform: translateY(100%);
+    }
+}

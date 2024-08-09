@@ -8,7 +8,7 @@ img[src="imgs/facebook-logo.png"] {
     background-color: var(--color-logo-facebook);
 }
 
-header h1, header p, main h1, aside .material-symbols-outlined {
+h1, header p, h1, aside .material-symbols-outlined {
     user-select: none;
 }
 

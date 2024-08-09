@@ -1,0 +1,34 @@
+header, article#cursosOfertados section, article#localizacao {
+    flex-direction: column;
+}
+header img {
+    width: 80%;
+}
+header h1 {
+    display: none;
+}
+header p {
+    font-size: .8em;
+}
+
+article#cursosOfertados section, article#localizacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+}
+article#cursosOfertados section {
+    flex-direction: column-reverse!important;
+}
+article#cursosOfertados section img {
+    width: 95%;
+}
+article#cursosOfertados section .content {
+    width: 90%;
+}
+article#localizacao section iframe {
+    margin: 0 auto;
+    width: var(--iframe-width-calc);
+    height: var(--iframe-height-calc);
+}

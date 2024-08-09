@@ -1,6 +1,10 @@
 header, article#cursosOfertados section, article#localizacao {
     flex-direction: column;
 }
+header {
+    justify-content: center;
+    gap: 30px;
+}
 header img {
     width: 80%;
 }

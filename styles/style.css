@@ -1,7 +1,3 @@
-body * {
-    border: 2px solid;
-}
-
 /* header */
 header {
     height: 100dvh;
@@ -12,37 +8,145 @@ header {
     justify-content: center;
     align-items: center;
 
-    gap: 10px;
+    gap: 135px;
 
-    background-color: var(--color-logo-01);
+    background-color: var(--color-logo-net-informatica-01);
 }
 header img {
     width: 35%;
 }
 header h1 {
-    color: var(--color-logo-02);
+    color: var(--color-logo-net-informatica-02);
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
 }
 header p {
-    color: var(--color-logo-05);
+    color: var(--color-logo-net-informatica-05);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* main > article */
-main article {
-    height: 100vh;
+/* header {display: none} */
 
-    background-color: var(--color-11);
+article#cursosOfertados section {
+    padding: 20px 0;
+    display: flex;
+
+    justify-content: space-around;
 }
-main article h1 {
+article#cursosOfertados > h1 {
+    font-size: var(--font-title-size-h1-main);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-color: var(--color-04);
+    color: var(--color-10);
+
     text-align: center;
 }
+article#cursosOfertados section .content {
+    width: 50%;
+}
+article#cursosOfertados section img {
+    border-radius: 6px;
+    width: 30%;
+}
+article#cursosOfertados section .content h1 {
+    font-family: var(--font-title-01);
+    font-size: var(--font-title-size-h1-second);
+}
+article#cursosOfertados .content p {
+    font-family: var(--font-para-02);
 
-/* articles */
+    text-align: justify;
+}
+article#cursosOfertados section:nth-child(even) {
+    background-color: var(--color-04);
+}
+article#cursosOfertados section:nth-child(even) h1 {
+    color: var(--color-09);
+}
+article#cursosOfertados section:nth-child(even) p {
+    color: var(--color-07);
+}
+article#cursosOfertados section:nth-child(odd) {
+    background-color: var(--color-07);
+    flex-direction: row-reverse;
+}
+article#cursosOfertados section:nth-child(odd) h1 {
+    color: var(--color-01);
+}
+article#cursosOfertados section:nth-child(odd) p {
+    color: var(--color-03);
+}
+
 article#localizacao {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    place-items: center;
+
     background-color: var(--color-08);
 }
+article#localizacao h1 {
+    color: var(--color-01);
+
+    font-family: var(--font-title-01);
+    font-size: var(--font-title-size-h1-main);
+}
 article#localizacao section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
     background-color: var(--color-10);
 
-    display: grid;
-    grid-gap: 15px;
+    border-radius: 6px;
+    padding: 10px;
+}
+article#localizacao section p {
+    text-align: center;
+
+    color: var(--color-01);
+
+    font-family: var(--font-para-01);
+}
+article#localizacao section iframe {
+    border-radius: 10px;
+
+    width: var(--iframe-width);
+    height: var(--iframe-height);
+}
+
+/* aside */
+aside {
+    position: fixed;
+
+    right: 0;
+    bottom: 0;
+
+    height: 200px;
+    width: var(--menu-social-networks-size);
+}
+aside #redesSociais {
+    display: flex;
+    flex-direction: column;
+
+    transform: translateY(100%);
+}
+aside #redesSociais a img{
+    height: var(--menu-social-networks-size);
+    display: block;
+}
+aside .material-symbols-outlined {
+    position: relative;
+    z-index: 1;
+
+    background-color: var(--color-06);
+    color: var(--color-03);
+
+    cursor: pointer;
+
+    font-size: var(--menu-social-networks-size);
 }

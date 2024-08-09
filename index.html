@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style-reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <!-- principal -->
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/extra.css">
+    <!-- variáveis -->
     <link rel="stylesheet" href="styles/variables.css">
+    <!-- style reset -->
+    <link rel="stylesheet" href="styles/style-reset.css">
+    <!-- configs extras -->
+    <link rel="stylesheet" href="styles/extras.css">
+    <!-- media queries -->
+    <!-- celulares -->
+    <link rel="stylesheet" media="(width <= 576px)" href="styles/mqs/style-mq-cell-all.css">
+    <link rel="shortcut icon" href="imgs/net-informatica-logo-icone.png" type="image/x-icon">
     <title>NET Informática</title>
 </head>
 <body>
@@ -16,53 +25,96 @@
         <article>
             <h1>NET Informática</h1>
 
-            <p>Conquiste sua vaga no mercado de trabalho, cursos são requisitos principais.</p>
+            <p>Conquiste sua vaga no mercado de trabalho.</p>
         </article>
     </header>
 
     <main>
-        <article>
+        <article id="cursosOfertados">
             <h1>Cursos ofertados &#x1F4E2;</h1>
 
             <section>
+                <div class="content">
+                    <h1>Informática básica e avançada</h1>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, expedita inventore. Quam reprehenderit, beatae enim perferendis fugiat quae aut id corrupti laudantium cum rerum aperiam autem! Eligendi ea tempore cupiditate.</p>
+                </div>
+
+                <img src="imgs/informatica-illustration-img-by-tung_nguyen.jpg" alt="by: Tung Nguyen">
+            </section>
+
+            <section>
+                <div class="content">
+                    <h1>Operador de caixa</h1>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, expedita inventore. Quam reprehenderit, beatae enim perferendis fugiat quae aut id corrupti laudantium cum rerum aperiam autem! Eligendi ea tempore cupiditate.</p>
+                </div>
+
+                <img src="imgs/operador-caixa-img-by-nathan_dumlao.jpg" alt="by: Tung Nguyen">
+            </section>
+
+            <section>
+                <div class="content">
+                    <h1>HTML e CSS básico</h1>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, expedita inventore. Quam reprehenderit, beatae enim perferendis fugiat quae aut id corrupti laudantium cum rerum aperiam autem! Eligendi ea tempore cupiditate.</p>
+                </div>
+
+                <img src="imgs/html-css-img-by-pixabay.jpg" alt="by: Tung Nguyen">
             </section>
         </article>
 
-        <article id="localizacao" class="modelo01">
+        <article id="localizacao">
             <h1>Localização &#x1F5FA;&#xFE0F;</h1>
 
             <section>
                 <p>&#x1F4CD;Av. Almirante Barroso, 2888</p>
 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127636.45951514691!2d-48.50374212385952!3d-1.392904660039409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48b892ca03389%3A0x246d48413d183016!2sNET%20INFORM%C3%81TICA!5e0!3m2!1spt-BR!2sbr!4v1721946522330!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127636.45951514691!2d-48.50374212385952!3d-1.392904660039409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48b892ca03389%3A0x246d48413d183016!2sNET%20INFORM%C3%81TICA!5e0!3m2!1spt-BR!2sbr!4v1721946522330!5m2!1spt-BR!2sbr"
+                width="400"
+                height="300"
+                style="border:0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">Iframe não carregado D:</iframe>
             </section>
         </article>
 
-        <article>
-            <h1>Redes sociais &#x1F4F1;</h1>
+        <aside>
+            <span id="redesSociais">
+                <!-- zap -->
+                <a href="https://api.whatsapp.com/send?phone=5591980895560"
+                    target="_blank"
+                    rel="noopener noreferrer">
 
-            <section>
-                <ul>
-                    <li>
-                        0<img src="imgs/whatsapp-logo.png" alt="">
-                        WhatsApp
-                        <dl><a href="https://l.instagram.com/?u=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D5591980895560&e=AT0DLyZ8DwFm9VXSs2OU12jt_D5Hga9XeXcK7xlS3xmc_aPKBD-gvnh9m75neXLSd1hHhsRaarETZwjgjQPN6t9um8KMKod_i1ymNnU-bHEMmtQENyYW_lA" target="_blank" rel="noopener noreferrer">link</a></dl>
-                    </li>
+                    <img src="imgs/whatsapp-logo.png" alt="WhatsApp logo">
+                </a>
 
-                    <li>
-                        <img src="imgs/Instagram-logo.png" alt="">
-                        Instagram
-                        <dl><a href="https://www.instagram.com/netcursosintensivos/" target="_blank" rel="noopener noreferrer">link</a></dl>
-                    </li>
+                <!-- insta -->
+                <a href="https://www.instagram.com/netcursosintensivos/"
+                    target="_blank"
+                    rel="noopener noreferrer">
 
-                    <li>
-                        <img src="imgs/facebook-logo.png" alt="">
-                        Facebook
-                        <dl><a href="https://www.facebook.com/netcursosintensivos/" target="_blank" rel="noopener noreferrer">link</a></dl>
-                    </li>
-                </ul>
-            </section>
-        </article>
+                    <img src="imgs/instagram-logo.png" alt="Instagram logo">
+                </a>
+
+                <!-- face -->
+                <a href="https://www.facebook.com/netcursosintensivos/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <img src="imgs/facebook-logo.png" alt="Facebook logo">
+                </a>
+            </span>
+
+            <!-- icon -->
+            <span class="material-symbols-outlined">
+                more_horiz
+                <!-- close -->
+            </span>
+        </aside>
     </main>
+
+    <script src="scripts/app.js"></script>
 </body>
 </html>

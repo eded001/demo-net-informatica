@@ -4,15 +4,16 @@ const redesSociais = document.querySelector("#redesSociais");
 iconElement.addEventListener("click", animation);
 
 function animation() {
-    const textContent = iconElement.textContent;
+    const iconElementTextContent = iconElement.textContent;
     const redesSociaisStyle = redesSociais.style;
+    const animationDesc = "down .5s ease forwards";
 
     iconElement.removeEventListener("click", animation);
 
-    if (textContent === "close") {
+    if (iconElementTextContent === "close") {
         iconElement.innerText = "more_horiz";
 
-        redesSociaisStyle.animation = "down .5s ease forwards";
+        redesSociaisStyle.animation = animationDesc;
 
         setTimeout(() => {
             redesSociaisStyle.transform = "translateY(100%)";
@@ -21,7 +22,7 @@ function animation() {
     } else {
         iconElement.innerText = "close";
 
-        redesSociaisStyle.animation = "up .5s ease forwards";
+        redesSociaisStyle.animation = animationDesc;
 
         setTimeout(() => {
             redesSociaisStyle.transform = "translateY(0)";
